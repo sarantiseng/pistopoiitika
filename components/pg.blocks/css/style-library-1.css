@@ -1994,7 +1994,7 @@ button:hover
     background-color: #c9df8a;
 }
 
-.span-invert {color:white;}
+.eco_services_environment .eco_headings span:after , .eco_services_environment .eco_headings span:before {     position: absolute;     content: "";     left: 0px;     top: 9px;     width: 36%;     border-top: 2px solid #111; }
 {
 }
 
