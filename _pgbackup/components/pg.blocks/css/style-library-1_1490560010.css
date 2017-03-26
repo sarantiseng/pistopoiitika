@@ -1397,7 +1397,9 @@ fieldset legend
 {
     position: relative;
     margin-bottom: 20px;
+
 }
+
 
 .form-group.focus .form-control,
 .form-control:focus
@@ -1987,9 +1989,5 @@ button:hover
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-}
-
-.sec-forma{background-color: #c9df8a;}
-{
 }
 
