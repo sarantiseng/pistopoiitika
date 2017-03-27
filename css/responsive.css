@@ -491,8 +491,8 @@
     .kode_eco_social_icons
     {
         float: left;
-        width: 52%;
-        text-align: right;
+        width: 100%;
+        text-align: center;
     }
     .kode_eco_social_icons ul
     {
@@ -1202,7 +1202,7 @@
     .kode_eco_social_icons
     {
         float: left;
-        width: 52%;
+        width: 100%;
     }
     .kode_eco_social_icons .social-accounts
     {
@@ -1418,18 +1418,13 @@
         opacity: 1;
         transform: scale(1.1);
     }
-@media (max-width: 767px)
-{
     .eco_our_features,
 	.eco_recent_blog_post,
 	.eco_offices_info
     {
         margin-bottom: 20px;
         margin-top: 20px;
-        
     }
-}
-
     .eco_footer_columns
     {
         padding: 46px 0 39px;
@@ -2211,12 +2206,16 @@
         float: none;
         display: inline-block;
     }
+@media (max-width: 480px)
+{
     .kode_eco_social_icons
     {
         float: left;
         width: 100%;
         text-align: center;
     }
+}
+
     .kode_eco_social_icons .social-accounts
     {
         float: none;
