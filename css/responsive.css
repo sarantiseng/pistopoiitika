@@ -2206,16 +2206,12 @@
         float: none;
         display: inline-block;
     }
-@media (max-width: 480px)
-{
     .kode_eco_social_icons
     {
         float: left;
         width: 100%;
         text-align: center;
     }
-}
-
     .kode_eco_social_icons .social-accounts
     {
         float: none;
@@ -3199,5 +3195,13 @@
 
 @media (max-width: 360px){
 
+}
+
+@media (max-width:991px)
+{
+    header img
+    {
+        max-width: 70%;
+    }
 }
 

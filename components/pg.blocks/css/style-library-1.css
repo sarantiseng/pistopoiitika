@@ -1027,6 +1027,7 @@ img
 {
 }
 
+
 /*===================================================================================*/
 
 /*	BUTTONS
@@ -2014,7 +2015,7 @@ button:hover
 
 #forma form
 {
-    max-width: 600px;
+    max-width: 700px;
     text-align: center;
     margin: 20px auto;
 }
@@ -2036,9 +2037,7 @@ button:hover
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     resize: none;
     background: rgba(148, 209, 160,.3);
-    
 }
-
 
 #forma form input:focus,#forma form textarea:focus
 {

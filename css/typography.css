@@ -185,6 +185,7 @@ img
     margin-top: -20px;
 }
 
+
 figure
 {
     margin: 0;
@@ -415,8 +416,7 @@ textarea
     vertical-align: top;
 }
 
-button
-{
+button {
     border: none;
     background: transparent;
 
@@ -636,5 +636,7 @@ td
 {
     color: #b2b2b2;
     text-transform: capitalize;
+}
+
 }
 
