@@ -934,7 +934,6 @@ section
     width: 100%;
 }
 
-
 .kode_button
 {
     position: relative;
@@ -3361,7 +3360,9 @@ section
 {
     float: left;
     width: 100%;
+    margin-top: 200px;
 }
+
 
 .eco_offices_info .social-icons li:hover a
 {

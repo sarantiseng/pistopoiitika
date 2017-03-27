@@ -1418,12 +1418,18 @@
         opacity: 1;
         transform: scale(1.1);
     }
+@media (max-width: 767px)
+{
     .eco_our_features,
 	.eco_recent_blog_post,
 	.eco_offices_info
     {
         margin-bottom: 20px;
+        margin-top: 20px;
+        
     }
+}
+
     .eco_footer_columns
     {
         padding: 46px 0 39px;
@@ -1793,8 +1799,6 @@
     {
         width: 60%;
     }
-@media (max-width: 767px)
-{
     .btn-mediem
     {
         border-radius: 10px;
@@ -1806,8 +1810,6 @@
         text-transform: uppercase;
         width: 128px;
     }
-}
-
     .eco_blog_detail_content h4
     {
         font-size: 20px;

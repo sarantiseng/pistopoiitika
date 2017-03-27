@@ -366,23 +366,48 @@
                 <!--Eco section ends-->                 
             </div>
             <section id="forma">
-                <div class="eco_headings"> 
-                    <h3><b>ΦΟΡΜΑ ΕΠΙΚΟΙΝΩΝΙΑΣ</b> </h3> 
-                    <span><i class="fa-bookmark fa"></i></span> 
-                </div>
-                <form class="cf" method="POST" action="http://formspree.io/nicvalllsec@gmail.com" name="contactform">
-                    <p>Συμπληρώστε την παρακάτω φόρμα και θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατό.</p>
-                    <div class="half left cf">
-                        <input type="text" id="input-name" placeholder="Όνομα" name="name">
-                        <input type="email" id="input-email" placeholder="Διεύθυνση Email" name="email">
-                        <input type="text" id="input-subject" placeholder="Θέμα" name="subject">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="eco_headings"> 
+                            <h3><b>ΦΟΡΜΑ ΕΠΙΚΟΙΝΩΝΙΑΣ</b> </h3> 
+                            <span><i class="fa-bookmark fa"></i></span> 
+                        </div>
+                        <form class="cf" method="POST" action="http://formspree.io/nicvalllsec@gmail.com" name="contactform">
+                            <p>Συμπληρώστε την παρακάτω φόρμα και θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατό.</p>
+                            <div class="half left cf">
+                                <input type="text" id="input-name" placeholder="Όνομα" name="name">
+                                <input type="email" id="input-email" placeholder="Διεύθυνση Email" name="email">
+                                <input type="text" id="input-subject" placeholder="Θέμα" name="subject">
+                            </div>
+                            <div class="half right cf">
+                                <textarea name="message" type="text" id="input-message" placeholder="Γράψτε το μήνυμά σας"></textarea>
+                            </div>                             
+                            <input type="submit" value="Submit" id="input-submit">
+                            <p class="small text-muted"><span class="guardsman">* Προσοχή, επαληθεύστε οτι δώσατε το σωστό email σας.</span></p>
+                        </form>                                                  
                     </div>
-                    <div class="half right cf">
-                        <textarea name="message" type="text" id="input-message" placeholder="Γράψτε το μήνυμά σας"></textarea>
-                    </div>                     
-                    <input type="submit" value="Submit" id="input-submit">
-                    <p class="small text-muted"><span class="guardsman">* Προσοχή, επαληθεύστε οτι δώσατε το σωστό email σας.</span></p>
-                </form>                 
+                    <div class="col-md-4">
+                        <div class="eco_offices_info"> 
+                            <p>Ολοκληρωμένες υπηρεσίες μηχανικού</p> 
+                            <!--Eco footer admin column-->                             
+                            <ul class="eco_admin_info"> 
+                                <li> 
+                                    <i class="fa fa-paper-plane" aria-hidden="true"></i> 
+                                    <span>Νίκαια , Πειραιάς&nbsp;</span>
+                                </li>                                 
+                                <li> 
+                                    <i class="fa fa-phone" aria-hidden="true"></i> 
+                                    <span>699 226 0302</span> 
+                                </li>                                 
+                                <li> 
+                                    <i class="fa fa-envelope" aria-hidden="true"></i> 
+                                    <span>info@thiratechnical.com</span> 
+                                </li>                                 
+                            </ul>                             
+                            <!--Eco footer social icons-->
+                        </div>                                                  
+                    </div>
+                </div>                 
             </section>             
             <!--Eco content ends-->             
             <!--Eco footer starts-->             
@@ -394,32 +419,10 @@
                         <!--Eco footer content-->                         
                         <div class="eco_footer_columns"> 
                             <div class="row"> 
-                                <!--Eco footer content column-->                                 
-                                <div class="col-md-3 col-sm-6 responsive-devider-50"> 
-                                    <div class="eco_offices_info"> 
-                                        <h5 class="eco_sm_titles">pistopoiitika.gr</h5> 
-                                        <p>Nam et arcu venenatis, vulputate ipsum vel, porttitor metus...</p> 
-                                        <!--Eco footer admin column-->                                         
-                                        <ul class="eco_admin_info"> 
-                                            <li> 
-                                                <i class="fa fa-paper-plane" aria-hidden="true"></i> 
-                                                <p>Νίκαια , Πειραιάς</p> 
-                                            </li>                                             
-                                            <li> 
-                                                <i class="fa fa-phone" aria-hidden="true"></i> 
-                                                <p>699 226 0302</p> 
-                                            </li>                                             
-                                            <li> 
-                                                <i class="fa fa-envelope" aria-hidden="true"></i> 
-                                                <p>info@thiratechnical.com</p> 
-                                            </li>                                             
-                                        </ul>                                         
-                                        <!--Eco footer social icons-->                                         
-                                    </div>                                     
-                                </div>                                 
+                                <!--Eco footer content column-->                                                                  
                                 <!--Eco footer social end-->                                 
                                 <!--Eco recent blog post column-->                                 
-                                <div class="col-md-3 col-sm-6 responsive-devider-50"> 
+                                <div class="col-sm-6 responsive-devider-50 col-md-4"> 
                                     <div class="eco_our_features"> 
                                         <h5 class="eco_sm_titles">Χρησιμες διευθυνσεις</h5> 
                                         <ul class="eco_feature_campaigns"> 
@@ -447,7 +450,7 @@
                                 <!--Eco recent blog ends-->                                 
                                 <div class="clear"></div>                                 
                                 <!--Eco our feature starts-->                                 
-                                <div class="col-md-3 col-sm-6 responsive-devider-50"> 
+                                <div class="col-sm-6 responsive-devider-50 col-md-4"> 
                                     <div class="eco_our_features"> 
                                         <h5 class="eco_sm_titles">Πλοηγηση</h5> 
                                         <ul class="eco_feature_campaigns"> 
@@ -468,7 +471,7 @@
                                 </div>                                 
                                 <!--Eco our feature ends-->                                 
                                 <!--Eco gallery widget-->                                 
-                                <div class="col-md-3 col-sm-6 responsive-devider-50"> 
+                                <div class="col-sm-6 responsive-devider-50 col-md-4"> 
                                     <div class="eco_widget_gallery"> 
                                         <h5 class="eco_sm_titles">φωτογραφιεσ</h5> 
                                         <div class="eco_small_gallery_widget"> 
