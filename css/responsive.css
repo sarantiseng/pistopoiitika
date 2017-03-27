@@ -1238,6 +1238,7 @@
     .eco_footer_content .eco_footer_columns
     {
         padding: 46px 0px 0px;
+        text-align: center;
     }
     .kode_eco_buy_item
     {
@@ -3202,6 +3203,29 @@
     header img
     {
         max-width: 70%;
+    }
+}
+
+@media (max-width:767px)
+{
+    .eco_feature_campaigns li:before
+    {
+        left: 100px;
+    }
+    .eco_feature_campaigns li:after
+    {
+        left: 96px;
+    }
+}
+
+@media (max-width:479px)
+{
+    .eco_feature_campaigns li:before
+    {
+        left: 50px;
+    }
+    .eco_feature_campaigns li:after
+    {
     }
 }
 

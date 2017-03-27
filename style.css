@@ -1628,7 +1628,6 @@ section
     margin-bottom: 10px;
 }
 
-
 .eco_service_cols div p
 {
     margin-bottom: 0px;
@@ -3361,7 +3360,7 @@ section
 {
     float: left;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 0px;
 }
 
 .eco_offices_info .social-icons li:hover a
@@ -3372,7 +3371,7 @@ section
 .eco_offices_info p
 {
     margin-bottom: 14px;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .eco_admin_info
@@ -3380,8 +3379,9 @@ section
     float: left;
     width: 100%;
     margin-bottom: 4px;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
+
 
 .eco_admin_info li
 {
