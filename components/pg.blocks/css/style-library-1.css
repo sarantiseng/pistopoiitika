@@ -936,11 +936,6 @@ small, .small
     line-height: 2;
 }
 
-em
-{
-    color: #ff6600;
-}
-
 /* LINKS */
 
 a
@@ -972,7 +967,6 @@ ul
     position: relative;
     padding-left: 22px;
 }
-
 
 ul li,
 ol li

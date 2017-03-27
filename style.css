@@ -8817,19 +8817,8 @@ blockquote p:after
     background-color: rgba(148, 209, 160,.3);
 }
 
-#sec-about li:before
+#sec-about h4
 {
-    position: absolute;
-    content: "";
-    left: 4px;
-    top: 9px;
-    width: 4px;
-    height: 4px;
-    background-color: #8f918e;
-    border-radius: 100%;
-}
-
-#sec-about li:after {     position: absolute;     content: "";     left: 0px;     top: 5px;     width: 12px;     height: 12px;     border: 1px solid #8f918e;     border-radius: 100%; }
-{
+    padding-top: 30px;
 }
 
