@@ -1408,7 +1408,6 @@ fieldset legend
     box-shadow: none;
 }
 
-
 .form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control
@@ -1995,13 +1994,115 @@ button:hover
     background-color: #c9df8a;
 }
 
-.eco_services_environment .eco_headings span:after , .eco_services_environment .eco_headings span:before
+/*  FORMA 2  */
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+
+#forma
 {
-    position: absolute;
-    content: "";
-    left: 0px;
-    top: 9px;
-    width: 36%;
-    border-top: 2px solid #111;
+    background: #f1f1f1;
+    font-family: 'Merriweather', sans-serif;
+    padding: 5em;
+}
+
+
+#forma h1
+{
+    text-align: center;
+    color: #a8a8a8;
+    text-shadow: 1px 1px 0 white;
+}
+
+#forma form
+{
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#forma form input,#forma form textarea
+{
+    border: 0;
+    outline: 0;
+    padding: 1em;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'Merriweather', sans-serif;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    resize: none;
+    background: #c9df8a;
+}
+
+#forma form input:focus,#forma form textarea:focus
+{
+    -moz-box-shadow: 0 0px 2px #e74c3c !important;
+    -webkit-box-shadow: 0 0px 2px #e74c3c !important;
+    box-shadow: 0 0px 2px #e74c3c !important;
+}
+
+#forma form #input-submit
+{
+    color: white;
+    background: #e74c3c;
+    cursor: pointer;
+}
+
+#forma form #input-submit:hover
+{
+    -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+    -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+    box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+}
+
+#forma form textarea
+{
+    height: 126px;
+}
+
+#forma .half
+{
+    float: left;
+    width: 48%;
+    margin-bottom: 1em;
+}
+
+.right
+{
+    width: 50%;
+}
+
+.left
+{
+    margin-right: 2%;
+}
+
+@media (max-width: 480px)
+{
+    #forma .half
+    {
+        width: 100%;
+        float: none;
+        margin-bottom: 0;
+    }
+}
+
+/* Clearfix */
+
+#forma .cf:before,
+#forma .cf:after
+{
+    content: " ";
+    display: table;
+}
+
+#forma .cf:after
+{
+    clear: both;
 }
 
