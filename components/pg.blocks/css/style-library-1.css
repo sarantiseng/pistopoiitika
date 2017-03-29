@@ -1022,7 +1022,6 @@ img
 {
 }
 
-
 /*===================================================================================*/
 
 /*	BUTTONS
@@ -2104,5 +2103,16 @@ button:hover
 .eco_admin_info span
 {
     font-size: 1.2em;
+}
+
+.eco_footer_content
+{
+    background: #00ff00 url("/images/bg.jpg") no-repeat fixed center;
+}
+
+.eco_footer_content
+{
+    background: url("images/bg.jpg");
+    background-image: url('bg.jpg');
 }
 
