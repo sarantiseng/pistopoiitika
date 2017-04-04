@@ -16,8 +16,6 @@
         <link href="css/slick-slider.css" rel="stylesheet"> 
         <!-- jquery.bxslider -->         
         <link href="css/jquery.bxslider.css" rel="stylesheet"> 
-        <!-- Ekko Lightbox -->         
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.1.1/ekko-lightbox.css" rel="stylesheet"> 
         <!-- prettyPhoto -->         
         <link href="css/prettyPhoto.css" rel="stylesheet"> 
         <!-- responsive menu component -->         
@@ -555,7 +553,7 @@
                                                         <div class="eco_thumb eco_hover_effect"> 
                                                             <img src="extra-images/small_gallery_img_01.png" alt=""> 
                                                             <div class="eco_hover_btn"> 
-                                                                <a href="extra-images/adeies1.png" data-toggle="lightbox"></a> 
+                                                                <a href="extra-images/adeies1.png"></a> 
                                                             </div>                                                             
                                                         </div>                                                         
                                                     </figure>                                                     
@@ -641,10 +639,7 @@
         <script src="js/responsive-menu/jquery.dlmenu.js"></script>         
         <!-- masonry & filterable -->         
         <script src="js/jquery-filterable.js"></script>         
-        <script src="js/masonry-gallery.js"></script>
-        <!-- Ekko Lightbox -->         
-        <script src=" https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.1.1/ekko-lightbox.min.js"></script>         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.1.1/ekko-lightbox.min.js.map"></script>         
+        <script src="js/masonry-gallery.js"></script>         
         <!-- chosen.jquery js -->         
         <script src="js/chosen.jquery.min.js"></script>         
         <script src="js/jquery.auto-complete.js"></script>         
@@ -662,12 +657,5 @@
         <script type="text/javascript" src="components/pg.blocks/js/plugins.js"></script>         
         <script type="text/javascript" src="components/pg.blocks/js/bskit-scripts.js"></script>         
         <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>         
-
-        <script>
-                $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-            			event.preventDefault();
-            			$(this).ekkoLightbox();
-        		}); 
-       </script>         
     </body>     
 </html>
